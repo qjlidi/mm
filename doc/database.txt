@@ -1,0 +1,18 @@
+管理员表
+admin
+	 create table admin(
+     id int primary key,
+     name varchar(32) not null,
+     password varchar(128) not null);
+
+员工表
+emp
+	 create table emp(
+     id int primary key auto_increment,
+     name varchar(32) not null,
+     email varchar(64) not null,
+     class tinyint,
+     salary float);
+初始化数据库
+	 insert into emp(name, email,class,salary) values("zhangsan","9983@sb.com",3,1998.88);
+	 insert into admin values(88,"guanli","123654");

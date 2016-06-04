@@ -1,0 +1,9 @@
+思路
+	在分页中的几个变量
+	$pageNow 显示第几页，用户输入
+	$pageCount 共有几页
+	$rowCount 共有多少条记录
+	$pageSize 分页条数
+	
+	分页计算
+	$pageCount=ceil($rowCount/$pageSize);
